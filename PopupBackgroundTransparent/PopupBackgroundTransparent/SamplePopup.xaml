@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xct:Popup xmlns="http://xamarin.com/schemas/2014/forms"
+           xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+           xmlns:xct="clr-namespace:Xamarin.CommunityToolkit.UI.Views;assembly=Xamarin.CommunityToolkit"
+           x:Class="PopupBackgroundTransparent.SamplePopup"
+           IsLightDismissEnabled="False"
+           HorizontalOptions="CenterAndExpand"
+           VerticalOptions="CenterAndExpand"
+           Size="200,200"
+           Color="Transparent">
+    <StackLayout BackgroundColor="Black"
+                 HorizontalOptions="CenterAndExpand"
+                 VerticalOptions="CenterAndExpand">
+        <Label Text="Welcome to Xamarin.Forms!"
+               TextColor="White"
+               FontSize="24" />
+        <Button Text="Close"
+                TextColor="White"
+                FontSize="20"
+                Clicked="Button_Clicked"/>
+    </StackLayout>
+</xct:Popup>
