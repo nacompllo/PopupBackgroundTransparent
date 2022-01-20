@@ -4,8 +4,9 @@
              BackgroundColor="White"
              x:Class="PopupBackgroundTransparent.MainPage">
 
-    <StackLayout>
+    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
         <Button Text="Open Popup"
+                BackgroundColor="Red"
                 TextColor="Black"
                 FontSize="16"
                 Clicked="Button_Clicked" />

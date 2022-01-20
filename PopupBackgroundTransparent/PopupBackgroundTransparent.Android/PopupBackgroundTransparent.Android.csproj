@@ -16,7 +16,6 @@
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v12.0</TargetFrameworkVersion>
     <AndroidEnableSGenConcurrent>true</AndroidEnableSGenConcurrent>
     <AndroidUseAapt2>true</AndroidUseAapt2>
@@ -91,7 +90,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PopupBackgroundTransparent\PopupBackgroundTransparent.csproj">
-      <Project>{AB42E91C-57BB-4617-80E2-47183693F6C5}</Project>
+      <Project>{8D48DDA6-5513-4670-967A-990180F99FE6}</Project>
       <Name>PopupBackgroundTransparent</Name>
     </ProjectReference>
   </ItemGroup>
